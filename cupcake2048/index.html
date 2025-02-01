@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <meta charset="utf-8">
   <title>2048 CUPCAKES</title>
@@ -12,20 +13,31 @@
 
   <meta name="HandheldFriendly" content="True">
   <meta name="MobileOptimized" content="320">
-  <meta name="viewport" content="width=device-width, target-densitydpi=160dpi, initial-scale=1.0, maximum-scale=1, user-scalable=no, minimal-ui">
+  <meta name="viewport"
+    content="width=device-width, target-densitydpi=160dpi, initial-scale=1.0, maximum-scale=1, user-scalable=no, minimal-ui">
   <meta name="format-detection" content="telephone=no" />
 </head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-H25JY2R3LS"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag() { dataLayer.push(arguments); }
+  gtag('js', new Date());
+
+  gtag('config', 'G-H25JY2R3LS');
+</script>
 <script src="/js/main.js"></script>
+
 <body>
   <div class="container">
     <div class="heading">
       <div class="title-container">
         <h1 class="title">2048 <small>Cupcakes</small></h1>
       </div>
-			<div class="scores-container">
-				<div class="score-points">0</div>
-				<div class="best-points">0</div>
-			</div>
+      <div class="scores-container">
+        <div class="score-points">0</div>
+        <div class="best-points">0</div>
+      </div>
       <div class="scores-container">
         <div class="score-container">0 Kcal</div>
         <div class="best-container">0 Kcal</div>
@@ -41,7 +53,7 @@
       <div class="game-message">
         <p></p>
         <div class="lower">
-	        <a class="keep-playing-button">Keep going</a>
+          <a class="keep-playing-button">Keep going</a>
           <a class="retry-button">Retry</a>
           <div class="score-sharing"></div>
         </div>
@@ -80,14 +92,16 @@
     </div>
 
     <p class="game-explanation">
-      <strong class="important">How to play:</strong> Use your <strong>arrow keys</strong> to move the tiles. When two tiles with the same symbol touch, 
-	    they <strong>get promoted!</strong><br>
+      <strong class="important">How to play:</strong> Use your <strong>arrow keys</strong> to move the tiles. When two
+      tiles with the same symbol touch,
+      they <strong>get promoted!</strong><br>
     </p>
     <hr>
     <p class="tile-legend"><strong class="important">Tile Legend:</strong></p>
     <hr>
     <p class="credits">
-      Cupcakes images by <a href="http://www.georgetowncupcake.com/" title="Georgetown Cupcake | DC Cupcakes | About">Georgetown Cupcake</a>.
+      Cupcakes images by <a href="http://www.georgetowncupcake.com/"
+        title="Georgetown Cupcake | DC Cupcakes | About">Georgetown Cupcake</a>.
     </p>
   </div>
 
@@ -105,18 +119,18 @@
   <script src="js/application.js"></script>
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-98DP5VKS42"></script>
   <script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
 
-  gtag('config', 'G-98DP5VKS42');
+    gtag('config', 'G-98DP5VKS42');
   </script>
   <script>
-    window.twttr = (function (d,s,id) {
+    window.twttr = (function (d, s, id) {
       var t, js, fjs = d.getElementsByTagName(s)[0];
-      if (d.getElementById(id)) return; js=d.createElement(s); js.id=id;
-      js.src="https://platform.twitter.com/widgets.js"; fjs.parentNode.insertBefore(js, fjs);
-      return window.twttr || (t = { _e: [], ready: function(f){ t._e.push(f) } });
+      if (d.getElementById(id)) return; js = d.createElement(s); js.id = id;
+      js.src = "https://platform.twitter.com/widgets.js"; fjs.parentNode.insertBefore(js, fjs);
+      return window.twttr || (t = { _e: [], ready: function (f) { t._e.push(f) } });
     }(document, "script", "twitter-wjs"));
   </script>
   <script type="text/javascript">
@@ -125,7 +139,7 @@
     _gaq.push(['_setAccount', 'UA-49474780-3']);
     _gaq.push(['_trackPageview']);
 
-    (function() {
+    (function () {
       var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
       ga.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'stats.g.doubleclick.net/dc.js';
       var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
@@ -133,4 +147,5 @@
 
   </script>
 </body>
+
 </html>
