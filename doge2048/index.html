@@ -1,5 +1,6 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html>
+
 <head>
   <meta charset="utf-8">
   <title>DOGE 2048</title>
@@ -11,7 +12,8 @@
 
   <meta name="HandheldFriendly" content="True">
   <meta name="MobileOptimized" content="320">
-  <meta name="viewport" content="width=device-width, target-densitydpi=160dpi, initial-scale=1.0, maximum-scale=1, user-scalable=no, minimal-ui">
+  <meta name="viewport"
+    content="width=device-width, target-densitydpi=160dpi, initial-scale=1.0, maximum-scale=1, user-scalable=no, minimal-ui">
   <meta property="og:title" content="Wow! Such Doge Game!" />
   <meta property="og:description" content="much tiles such fun" />
   <meta property="og:image" content="meta/apple-touch-icon.png">
@@ -19,11 +21,22 @@
   <meta property="og:image:width" content="600">
   <meta property="og:image:height" content="600">
 </head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-H25JY2R3LS"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag() { dataLayer.push(arguments); }
+  gtag('js', new Date());
+
+  gtag('config', 'G-H25JY2R3LS');
+</script>
 <script type="application/javascript" src="/js/main.js"></script>
+
 <body>
   <div class="container">
     <div class="heading">
-      <h1 class="title">DOGE<span style="color:red">2</span><span style="color:#00FF00">0</span><span style="color:blue">4</span><span style="color:#00FFFF">8</span>
+      <h1 class="title">DOGE<span style="color:red">2</span><span style="color:#00FF00">0</span><span
+          style="color:blue">4</span><span style="color:#00FFFF">8</span>
       </h1>
       <div class="scores-container">
         <div class="score-container">0</div>
@@ -37,16 +50,17 @@
       </div>
       <div class="info">
         <!-- <div class="hide-info"><a>HIDE</a></div> -->
-       <p>Use your arrow keys or swipe to combine similar Doges and score points! </p>
-       <p>Unlock all 11 doges to win!</p>       
-       <p> 2048 Created by <a href="http://gabrielecirulli.com" target="_blank">Gabriele Cirulli.</a></p> 
-       <p>Based on <a href="https://itunes.apple.com/us/app/1024!/id823499224" target="_blank">1024 by Veewo Studio</a> and conceptually similar to <a href="http://asherv.com/threes/" target="_blank">Threes by Asher Vollmer.</a>
-    </p>
+        <p>Use your arrow keys or swipe to combine similar Doges and score points! </p>
+        <p>Unlock all 11 doges to win!</p>
+        <p> 2048 Created by <a href="http://gabrielecirulli.com" target="_blank">Gabriele Cirulli.</a></p>
+        <p>Based on <a href="https://itunes.apple.com/us/app/1024!/id823499224" target="_blank">1024 by Veewo Studio</a>
+          and conceptually similar to <a href="http://asherv.com/threes/" target="_blank">Threes by Asher Vollmer.</a>
+        </p>
       </div>
       <div class="game-message">
         <p></p>
         <div class="lower">
-	        <a class="keep-playing-button">Keep going</a>
+          <a class="keep-playing-button">Keep going</a>
           <a class="retry-button">Try again</a>
         </div>
       </div>
@@ -94,5 +108,6 @@
   <script src="js/local_score_manager.js"></script>
   <script src="js/game_manager.js"></script>
   <script src="js/application.js"></script>
- </body>
+</body>
+
 </html>
