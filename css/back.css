@@ -1,0 +1,11 @@
+#nav {
+    right: 25px;
+    color: white;
+    z-index: 0;
+    display: flex;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 45px;
+}
