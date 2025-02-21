@@ -1,10 +1,16 @@
 <html>
 
 <head>
+
+  <script src="/js/all.js"></script>
+
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Learn to fly 2</title>
-  <link rel="icon" type="image/x-icon" href="learn-to-fly-2.jpg" />
-  <link rel="shortcut icon" type="image/x-icon" href="learn-to-fly-2.jpg" />
+  <title>Learn To Fly 2</title>
+  <style>
+    html {
+      background-color: #000;
+    }
+  </style>
 </head>
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-H25JY2R3LS"></script>
@@ -17,9 +23,8 @@
 </script>
 
 <body>
-  <script src="/js/main.js"></script>
   <div id="ruffle" width="100%" height="100%"></div>
-  <script src="ruffle.js"></script>
+  <script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
   <script>
     window.RufflePlayer = window.RufflePlayer || {};
     window.addEventListener("load", (event) => {
@@ -30,9 +35,8 @@
       player.style.width = "100%";
       player.style.height = "100%";
       container.appendChild(player);
-      player.load("learn-to-fly-2.swf");
+      player.load("ltf2.swf");
     });
-    alert("This game is not officially supported by ruffle, so you may see some weird things or the game might crash. This is not a thing we can fix. Sorry!")
   </script>
 </body>
 
