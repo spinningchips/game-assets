@@ -1,11 +1,15 @@
 #nav {
     right: 25px;
     color: white;
-    z-index: 0;
+    z-index: 10000000;
     display: flex;
     width: 100%;
     position: fixed;
     top: 0;
     left: 0;
     height: 45px;
+}
+
+.head {
+    background-color: black;
 }
