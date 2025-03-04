@@ -1,24 +1,37 @@
 <!DOCTYPE html>
 <html>
-<head>
-<meta charset="UTF-8">
-<title>Super Mario Construct</title>
-<script src="/js/main.js"></script>
-<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
 
-<meta name="generator" content="Construct 3">
+<head>
+	<meta charset="UTF-8">
+	<title>Super Mario Construct</title>
+	<script src="/js/main.js"></script>
+	<meta name="viewport"
+		content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+
+	<meta name="generator" content="Construct 3">
 	<meta name="author" content="Luigibonus">
-	<meta name="description" content="Super Mario Construct is a browser-based Mario editor intended to easily let you make your own Mario-levels with advanced features!">
+	<meta name="description"
+		content="Super Mario Construct is a browser-based Mario editor intended to easily let you make your own Mario-levels with advanced features!">
 	<link rel="manifest" href="appmanifest.json">
 	<link rel="apple-touch-icon" sizes="128x128" href="icons/icon-128.png">
 	<link rel="apple-touch-icon" sizes="256x256" href="icons/icon-256.png">
 	<link rel="icon" type="image/png" href="icons/icon-256.png">
 
-<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="style.css">
 
 </head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-H25JY2R3LS"></script>
+<script>
+	window.dataLayer = window.dataLayer || [];
+	function gtag() { dataLayer.push(arguments); }
+	gtag('js', new Date());
+
+	gtag('config', 'G-H25JY2R3LS');
+</script>
+
 <body>
-<div id="fb-root"></div>
+	<div id="fb-root"></div>
 	<script src="adapter.js"></script>
 	<noscript>
 		<div id="notSupportedWrap">
@@ -31,13 +44,14 @@
 	<script src="scripts/main.js"></script>
 	<script src="scripts/register-sw.js"></script>
 	<script>
-			window.addEventListener("keydown", function(e) {
-			    // These are the space and arrow key codes
-			    if([32, 37, 38, 39, 40].indexOf(e.keyCode) > -1) {
-			        e.preventDefault();
-			    }
-			}, false);
+		window.addEventListener("keydown", function (e) {
+			// These are the space and arrow key codes
+			if ([32, 37, 38, 39, 40].indexOf(e.keyCode) > -1) {
+				e.preventDefault();
+			}
+		}, false);
 	</script>
 </body>
 </body>
+
 </html>
