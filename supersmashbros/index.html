@@ -1,5 +1,6 @@
 <html>
     <head>
+        <!--HTML file auto generated using EmulatorJS codehelper-->
         <style>
             body, html {
                 margin: 0;
@@ -14,24 +15,12 @@
         <script>
             EJS_player = "#game";
             EJS_core = "n64";
-            EJS_gameName = "Smash Bros";
+            EJS_gameName = "SmashBros";
             EJS_color = "#0064ff";
-            EJS_pathtodata = "/emulatorjs/data/";
+            EJS_startOnLoaded = true;
+            EJS_pathtodata = "https://cdn.emulatorjs.org/stable/data/";
             EJS_gameUrl = "smashbros.n64";
         </script>
-        <script src="/emulatorjs/data/loader.js"></script>
+        <script src="https://cdn.emulatorjs.org/stable/data/loader.js"></script>
     </body>
 </html>
-<!--
-let controls = [];
-let controls_alert = "";
-for(let i = 0; i < Object.values(EJS_emulator.controls[0]).length; i++) {
- 	let temparray = [];
-	temparray.push(keyboardMap[Object.values(EJS_emulator.controls[0][i])[0]]);
-	temparray.push(Object.values(EJS_emulator.controls[0][i])[1]);
-	controls.push(temparray);
-};
-for(i = 0; i < controls.length; i++) {
-	controls_alert = controls_alert + controls[i][0] + ", " + controls[i][1] + "\n";
-};
--->
